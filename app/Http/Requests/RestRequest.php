@@ -26,7 +26,7 @@ class RestRequest extends FormRequest
         return [
             "email"=>'required',
             "token"=>'required',
-            "password"=>'required',
+            "password"=>'required|confirmed',
         ];
     }
 }
