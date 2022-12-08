@@ -33,7 +33,7 @@ class AuthController extends Controller
         }
 
         return response([
-            'message'=>'invalid Email Or Password'
+            'message'=>'Invalid email or password'
         ],401);
 
     } // end Method
